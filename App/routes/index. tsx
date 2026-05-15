@@ -1,0 +1,14 @@
+import { createFileRoute } from '@tanstack/react-router'
+
+export const Route = createFileRoute('/')({
+  component: Home,
+})
+
+function Home() {
+  return (
+    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
+      <h1>Willkommen zur Schnellen Route!</h1>
+      <p>Der Rentner-Podcast Routenplaner ist jetzt online.</p>
+    </div>
+  )
+}

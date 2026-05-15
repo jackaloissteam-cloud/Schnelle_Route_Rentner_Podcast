@@ -1,0 +1,25 @@
+import { createFileRoute } from '@tanstack/react-router'
+
+export const Route = createFileRoute('/')({
+  component: Home,
+})
+
+function Home() {
+  return (
+    <div style={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      alignItems: 'center', 
+      justifyContent: 'center', 
+      height: '100vh', 
+      fontFamily: 'sans-serif',
+      textAlign: 'center'
+    }}>
+      <h1 style={{ color: '#0070f3', fontSize: '2.5rem' }}>📍 Schnelle Route</h1>
+      <p style={{ fontSize: '1.2rem' }}>Der Rentner-Podcast ist bereit für die Abfahrt.</p>
+      <div style={{ marginTop: '20px', padding: '15px', background: '#eee', borderRadius: '10px' }}>
+        Status: Verbindung steht.
+      </div>
+    </div>
+  )
+}

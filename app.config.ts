@@ -1,17 +1,3 @@
-import { createApp } from 'vinxi'
+import { defineConfig } from '@tanstack/start/config'
 
-export default createApp({
-  routers: [
-    {
-      name: 'public',
-      type: 'static',
-      dir: './public',
-    },
-    {
-      name: 'client',
-      type: 'spa',
-      handler: './app/page.tsx',
-      target: 'browser',
-    },
-  ],
-})
+export default defineConfig({})

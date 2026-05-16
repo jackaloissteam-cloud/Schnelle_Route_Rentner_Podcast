@@ -1,23 +1,21 @@
 {
   "name": "schnelle_route_rentner_podcast",
   "version": "0.1.0",
-  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
     "start": "vinxi start"
   },
   "dependencies": {
-    "@tanstack/react-router": "^1.32.0",
-    "@tanstack/start": "^1.32.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "vinxi": "^0.3.11"
+    "@tanstack/start": "latest",
+    "@tanstack/react-router": "latest",
+    "@tanstack/router-generator": "latest",
+    "vinxi": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
-  "devDependencies": {
-    "@types/node": "^20.12.7",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
-    "typescript": "^5.4.5"
-  }
+  "devDependencies": {}
 }

@@ -8,14 +8,14 @@
     "start": "vinxi start"
   },
   "dependencies": {
-    "@tanstack/start": "latest",
-    "@tanstack/react-router": "latest",
-    "@tanstack/router-generator": "latest",
-    "vinxi": "latest",
-    "vite": "latest",
-    "typescript": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "@tanstack/start": "1.120.5",
+    "@tanstack/react-router": "1.120.5",
+    "@tanstack/router-generator": "1.120.5",
+    "vinxi": "0.5.6",
+    "vite": "5.4.21",
+    "typescript": "5.8.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {}
 }

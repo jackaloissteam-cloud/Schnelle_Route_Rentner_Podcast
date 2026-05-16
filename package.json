@@ -3,18 +3,16 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "start": "vinxi start"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
-    "@tanstack/start": "1.114.25",
     "@tanstack/react-router": "1.114.25",
-    "@tanstack/router-generator": "1.114.25",
-    "vinxi": "0.5.6",
-    "vite": "5.4.21",
-    "typescript": "5.8.3",
     "react": "19.1.0",
     "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "vite": "5.4.21",
+    "typescript": "5.8.3"
   }
 }
